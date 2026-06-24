@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
+import { Toaster } from "sonner";
 import "../globals.css";
 import Navbar from "@/components/navbar";
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Navbar />
         </Suspense>
         {children}
+        <Toaster />
       </body>
     </html>
   );
