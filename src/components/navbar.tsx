@@ -50,6 +50,11 @@ const Navbar = async () => {
                 <div className="flex items-center mr-4">
                   สวัสดี, {session.user.name}
                 </div>
+                {(session.user as Record<string, unknown>)?.role === 'admin' && (
+                  <Button asChild variant="outline" className="hidden sm:inline-flex">
+                    <Link href="/dashboard">Dashboard</Link>
+                  </Button>
+                )}
                 <div>
                   <LogoutButton />
                 </div>
