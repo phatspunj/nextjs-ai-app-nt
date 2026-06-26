@@ -72,7 +72,7 @@ fix(contact): prevent XSS in email HTML template
 - ถ้าแก้ schema แล้วต้อง `npx prisma generate` ก่อน commit ตัว schema
 - ไม่ใช้ `--no-verify` เพื่อข้าม hook โดยไม่มีเหตุผล
 
-## Checklist Before Committing  
+## Checklist Before Committing
 
 - [ ] ไม่มีไฟล์ `.env` หรือ secret ใน staging area
 - [ ] `npm run lint` ผ่านโดยไม่มี error

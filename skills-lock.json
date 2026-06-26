@@ -1,11 +1,29 @@
 {
   "version": 1,
   "skills": {
+    "deploy-docker-production": {
+      "source": "phatspunj/my-agent-skill-nt",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-docker-production/SKILL.md",
+      "computedHash": "be5848037d25a3b7260b130be122dc4ac282c035f13e60c6c140ce86637d5301"
+    },
     "frontend-design": {
       "source": "anthropics/skills",
       "sourceType": "github",
       "skillPath": "skills/frontend-design/SKILL.md",
       "computedHash": "93f53fd1c0352d3d7ec17b8f73d7351bf76f4821e55d123c9d2abc2c53ba48e4"
+    },
+    "git-commit-guide": {
+      "source": "phatspunj/my-agent-skill-nt",
+      "sourceType": "github",
+      "skillPath": "skills/git-commit-guide/SKILL.md",
+      "computedHash": "88f0ed32096098023f647be68d8656b2d53c44746694ba0c4cc6e92aa842a425"
+    },
+    "project-onboarding": {
+      "source": "phatspunj/my-agent-skill-nt",
+      "sourceType": "github",
+      "skillPath": "skills/project-onboarding/SKILL.md",
+      "computedHash": "2af4e53b74db753a916452d176702d930c78872728de2204ab6a09767ae2f251"
     },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
